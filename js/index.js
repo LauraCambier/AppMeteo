@@ -106,7 +106,7 @@ var app = {
 
 				  //on concatene la div en une variable
 					
-					$("#nom_ville2").html(city_name2);
+					$("#nom_ville2").html("<h2>"+city_name2+"</h2>");
 					$("#icone2").html('<img src="img/'+icon2+'.png">');
 					$("#description2").html(description2);
 					$("#temp_min2").html('Température minimum: '+celsiusmin2+'°c');
